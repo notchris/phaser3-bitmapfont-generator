@@ -1,0 +1,39 @@
+{
+  "name": "phaser3-bitmapfont-generator",
+  "version": "1.0.0",
+  "description": "Blah",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js  --colors",
+    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+  },
+  "author": "notchris",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.7.1",
+    "eslint-loader": "^3.0.2",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "mini-css-extract-plugin": "^0.8.0",
+    "raw-loader": "^4.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "core-js": "^3.4.2",
+    "js2xmlparser": "^4.0.0",
+    "phaser": "^3.21.0"
+  }
+}
