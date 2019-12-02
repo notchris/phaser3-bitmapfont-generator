@@ -1,32 +1,26 @@
-# Webpack Frontend Starterkit
+# Phaser3 Bitmap Font Generator
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
+This is a small utility to create bitmap fonts for Phaser3 and others. There are existing tools to help with this process, however, they no longer appear to be supported / require an application or are not oss. Created with Phaser3.
 
-A lightweight foundation for your next webpack based frontend project.
+Note: This is still in progress but works for general cases. XML is logged to the console and the PNG can be saved from the canvas context menu.
+
+![Generator preview](https://i.imgur.com/bwoq9MB.png)
 
 
-### Installation
+## Installation
 
-```
+```bash
 npm install
 ```
 
-### Start Dev Server
+## Run the app
 
-```
-npm start
-```
-
-### Build Prod Version
-
-```
-npm run build
+```bash
+npm run start
 ```
 
-### Features:
+## Contributing
+Pull requests are welcome.
 
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
