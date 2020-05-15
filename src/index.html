@@ -5,6 +5,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width,initial-scale=1.0">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
      <title>notchris | Bitmap Font Generator</title>
  </head>
  <body>
@@ -26,14 +27,15 @@
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Font Color</label>
                     <div class="col-sm-10">
-                        <input class="form-control" type="color" id="fontColor" value="#000000" name="fontColor">
+                        <input class="form-control" type="color" id="fontColor" value="#FFFFFF" name="fontColor">
                     </div>
                 </div>
                 <button class="btn btn-primary" type="button" id="generate">Generate Font</button>
         </fieldset>
         <fieldset id="result">
             <legend class="bg-light border-bottom">Result Preview</legend>
-            <div id="phaser"></div>
+            <div><a id="fontMap" >Download PNG</a></div>
+            <div id="phaser" style="background: repeat-x, repeat-y, url(public/assets/bg.jpg)"></div>
         </fieldset>
                 
     </div>
